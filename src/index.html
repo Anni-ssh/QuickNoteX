@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,300;1,500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/scss/style.css" />
+  <script defer src="assets/js/main.js"></script>
+  <title>QuickNoteX</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="display-1 mb-2 pt-5 fw-500 text-center">QuickNoteX</h1>
+    <p class="h4 mb-5 text-center fst-italic fw-300">Don't give up, not only after one defeat, but even after a
+      hundred</p>
+    <div class="card mb-4">
+      <ul id="tasksList" class="list-group list-group-flush"></ul>
+    </div>
+
+    <div class="card bg-light">
+      <div class="card-header">New task</div>
+      <div class="card-body">
+        <form id="form">
+          <div class="form-group">
+            <input type="text" class="form-control" id="taskInput" placeholder="Текст задачи" required />
+            <small id="emailHelp" class="form-text text-muted">Write what needs to be done</small>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg active">
+            Add
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
